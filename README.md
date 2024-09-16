@@ -62,11 +62,11 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 - **`src`**: Contains all source files.
   - **`components`**: Reusable components like `Navbar` and `Footer`.
-  - **`pages`**: Contains page components:
-    - **`index.tsx`**: The homepage.
-    - **`about.tsx`**: The about page.
-    - **`contact.tsx`**: The contact page with a form.
-  - **`styles`**: Global styles (if any).
+  - **src/App**: Contains pages directory:
+    - **`page.tsx`**: The homepage.
+    - **`about/page.tsx`**: The about page.
+    - **`contact/contact.tsx`**: The contact page with a form.
+.
 
 ### Using TypeScript 🎫
 

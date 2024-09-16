@@ -5,7 +5,7 @@ const AboutPage: FC = () => {
     <div className="min-h-screen p-6 text-gray-500">
       <div className="max-w-4xl mx-auto bg-white p-8 rounded-lg shadow-lg">
         <h1 className="text-5xl font-bold mb-6 text-center">About Us</h1>
-        
+
         <section className="mb-10">
           <h2 className="text-3xl font-semibold mb-4">Welcome to Tech Insights!</h2>
           <p className="text-lg leading-relaxed">
