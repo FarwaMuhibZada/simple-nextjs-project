@@ -4,7 +4,6 @@ import { useState } from 'react';
 import Link from 'next/link';
 
 const Navbar = (): JSX.Element => {
-  // Type annotation for the useState hook
   const [isOpen, setIsOpen]: [boolean, React.Dispatch<React.SetStateAction<boolean>>] = useState(false);
 
   const toggleMenu = (): void => {
@@ -17,8 +16,6 @@ const Navbar = (): JSX.Element => {
         <div className="text-white text-2xl font-bold">
           <Link href="/">Tech Insights</Link>
         </div>
-
-        {/* Hamburger Menu (Mobile View) */}
         <div className="md:hidden">
           <button
             onClick={toggleMenu}
@@ -41,15 +38,11 @@ const Navbar = (): JSX.Element => {
             </svg>
           </button>
         </div>
-
-        {/* Navigation Links for Desktop View */}
         <div className="hidden md:flex items-center space-x-20">
         <Link href="/about" className="text-white block">About</Link>
         <Link href="/contact" className="text-white block">Contact</Link>
         </div>
       </div>
-
-      {/* Mobile Menu */}
       {isOpen && (
         <div className="md:hidden mt-4 flex flex-col space-y-4 bg-gray-800 p-4">
           <Link href="/about" className="text-white block">About</Link>
