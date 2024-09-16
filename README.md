@@ -1,4 +1,45 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Tech Insights Blog 💻
+
+Welcome to the Tech Insights Blog! This project is a simple multi-page website built using Next.js 14, TypeScript, and Tailwind CSS. It features a homepage, an about page, and a contact page with form validation.
+
+## Features 🎉
+
+- **Homepage**: Introduces the website with a hero image and welcome message.
+- **About Page**: Provides information about the blog.
+- **Contact Page**: Includes a contact form with client-side validation.
+
+## DEMO 📺
+[Deployment Link](https://github.com/FarwaMuhibZada)
+
+### Installation 🔊
+### Prerequisites
+
+Ensure you have the following installed:
+- Node.js (v14 or later)
+- npm or Yarn
+
+## Getting Started ⚙
+
+Follow these instructions to set up and run the project locally.
+
+
+1. **Clone the repository:**
+    ```
+    git clone https://github.com/your-username/tech-insights-blog.git
+    cd tech-insights-blog
+    ```
+
+2. **Install dependencies:**
+    ```
+    npm install
+    # or
+    yarn install
+    ```
+
+### Running the Development Server
+
+Start the development server with:
+
 
 ## Getting Started
 
@@ -16,21 +57,40 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Project Structure
 
-## Learn More
+- **`src`**: Contains all source files.
+  - **`components`**: Reusable components like `Navbar` and `Footer`.
+  - **`pages`**: Contains page components:
+    - **`index.tsx`**: The homepage.
+    - **`about.tsx`**: The about page.
+    - **`contact.tsx`**: The contact page with a form.
+  - **`styles`**: Global styles (if any).
 
-To learn more about Next.js, take a look at the following resources:
+### Using TypeScript 🎫
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This project uses TypeScript for type safety. The TypeScript configuration can be found in `tsconfig.json`.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Tailwind CSS 🧮
 
-## Deploy on Vercel
+Tailwind CSS is used for styling. The configuration can be found in `tailwind.config.js`.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Form Validation 🎡
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The contact form includes client-side validation. It checks for required fields and validates email format using regular expressions.
+
+
+## Author
+
+- **Farwa Muhibzada** - 
+
+[GitHub Profile](https://github.com/FarwaMuhibZada)
+
+[Linkdin](https://www.linkedin.com/in/farwamohibzada/)
+
+
+### Contributing 🧑
+
+Feel free to open issues or submit pull requests. Make sure to follow the project's code style and include tests for new features.
+
