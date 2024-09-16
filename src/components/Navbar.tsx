@@ -14,7 +14,6 @@ const Navbar = (): JSX.Element => {
   return (
     <nav className="bg-gray-800 p-4 px-20">
       <div className="max-w-7xl mx-auto flex items-center justify-between">
-        {/* Logo */}
         <div className="text-white text-2xl font-bold">
           <Link href="/">Tech Insights</Link>
         </div>
@@ -46,7 +45,7 @@ const Navbar = (): JSX.Element => {
         {/* Navigation Links for Desktop View */}
         <div className="hidden md:flex items-center space-x-20">
         <Link href="/about" className="text-white block">About</Link>
-        <Link href="/missions" className="text-white block">Contact</Link>
+        <Link href="/contact" className="text-white block">Contact</Link>
         </div>
       </div>
 
@@ -54,7 +53,7 @@ const Navbar = (): JSX.Element => {
       {isOpen && (
         <div className="md:hidden mt-4 flex flex-col space-y-4 bg-gray-800 p-4">
           <Link href="/about" className="text-white block">About</Link>
-          <Link href="/missions" className="text-white block">Contact</Link>
+          <Link href="/contact" className="text-white block">Contact</Link>
         </div>
       )}
     </nav>
