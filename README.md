@@ -9,7 +9,7 @@ Welcome to the Tech Insights Blog! This project is a simple multi-page website b
 - **Contact Page**: Includes a contact form with client-side validation.
 
 ## DEMO 📺
-[Deployment Link](https://github.com/FarwaMuhibZada)
+[Deployment Link](https://techinsights-farwamuhibzada22.netlify.app/)
 
 ### Installation 🔊
 ### Prerequisites

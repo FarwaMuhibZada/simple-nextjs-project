@@ -43,6 +43,7 @@ const Navbar = (): JSX.Element => {
         <Link href="/contact" className="text-white block">Contact</Link>
         </div>
       </div>
+
       {isOpen && (
         <div className="md:hidden mt-4 flex flex-col space-y-4 bg-gray-800 p-4">
           <Link href="/about" className="text-white block">About</Link>
